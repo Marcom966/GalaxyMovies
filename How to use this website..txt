@@ -1,2 +1,5 @@
 Please, open opening.html first and then seach for a movie title, you'll find a more in
 depth guide inside the website itself. 
+DISCLAMER. due to some bugs i suggest you to open directly the index.html page as the seach result will
+display the second time you research for a film title. I'm working at correcting this bug at the moment.
+Sorry for the inconvenience.
