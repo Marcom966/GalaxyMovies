@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---Head-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.6/css/font-awesome.min.css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Movie Galaxy</title>
+</head>
+
+<!---Body-->
+<body data-title="main-index">
+
+  <!---Site Name-->
+  <div id="header">
+    <header>
+      <h7 class="sane-ppl-titl">Movie Galaxy</h7>
+    </header>
+  </div>
+
+  <!---Side content "most of it created in fetch18.js"-->
+  <div class="wrapper">
+    <div class="container">
+      <div class="row" id="mainbuttonsrow">
+      <!---button1 (movie-search)-->
+        <input type="text" class="search-txt" placeholder="search for a film" Id="UserInput2">
+          <input type="submit" class="search-txt-tre" id="submit">
+          </input>
+        </input>
+
+      <!----infos button-->
+      <button class="search-txt-cinque" id="toInfobutton" onclick="document.location.href='infos.html'">How to use this website</button>
+      
+      <!---button2 (year-search)-->
+        <input type="text" class="search-txt-due" placeholder="search for a year" Id="UserInput3">
+          <input type="submit" class="search-txt-quattro" id="submit2">
+            <div class="searchbtn" id="searchbtn">
+              <i class="fab fa-searchengin"></i>
+            </div> 
+          </input>
+        </input>
+      </div>
+    </div>
+
+        
+    <!--pagebuttons-->
+    <div class="container">
+      <div class="row" id="buttonrow">
+      </div> 
+    </div>
+
+    <!--sites actual structure starts here-->
+    <div class="container" id="container">
+      <div class="row" id="row"> 
+      </div>
+    </div> 
+
+    <!--Back To The top button-->
+    <button class="btn btn-tertiary" onclick="document.location.href='#header'" id="backtotop">Back to the top</button>
+  </div>
+          
+    <!--modal-->
+      <div class="modal fade" id="Mymodal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">More Details</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+              <p id="p0"></p>
+              <p id="p1"></p>
+              <p id="p2"></p>
+              <p id="p3"></p>
+              <p id="p4"></p>
+              <p id="p5"></p>
+              <div class="container">
+                <img id="image">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closemodal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<script src="js/jquery-3.2.1.slim.min.js"></script> 
+<script src="js/tether.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+<script src="fetch.js"></script>
+    
+
+<!--jquery-->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+</body>
+</html>

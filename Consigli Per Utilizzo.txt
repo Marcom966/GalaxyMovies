@@ -1,0 +1,4 @@
+Si consiglia di partire da "opening.html"
+
+Versione 5.0 - Cambiamenti in Ui (Grafici). Cambiata grafica apertura modale, aggiunta di pagina con spiegazioni utilizzo sito 
+(ancora da finire di stilizzare), aggiunta tasto per tornare in cima alla pagina in fondo-pagina.
